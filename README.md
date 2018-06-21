@@ -5,4 +5,4 @@
 
 -Ce rendre directement sur localhost et non pas 127.x.x.x:xxxx ou 192.x.x.x:xxxx sinon problème de CORS.-
 
-Certain saves sont encore un peu bancale car je n'ai pas pris le temps de fignoler toutes les fonctionalitées mais normalement elles devraient tout être présente. 
+Certains saves sont encore un peu bancales car je n'ai pas pris le temps de fignoler toutes les fonctionalitées, mais normalement elles devraient tout être présente. 
