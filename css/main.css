@@ -1,0 +1,186 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+:-webkit-full-screen {
+    background-color: black!important;
+}
+
+.slideshow-title {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+#page-content {
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    font-size: 12px;
+    font-style: italic;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.slide-content {
+    display: none;
+}
+
+.slide-text {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#fileHelpId img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#fullscreen {
+    color: lightgrey;
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+}
+
+#fullscreen:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#play {
+    color: lightgrey;
+    position: absolute;
+    left: 20px;
+    bottom: 35px;
+}
+
+#play:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#pause {
+    color: lightgrey;
+    position: absolute;
+    left: 20px;
+    bottom: 35px;
+}
+
+#pause:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dots-bar {
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 35px;
+}
+
+.active {
+    background-color: darkslategrey;
+}
+
+#settings-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#settings-btn:hover {
+    cursor: pointer;
+    color: lightgrey;
+}
+
+#drag-btn {
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}
+
+#drag-btn:hover {
+    cursor: pointer;
+    color: lightgrey;
+}
+
+/* LOADER */
+
+.loader {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: transparent;
+}
+
+.loader-white {
+    width: 80px;
+    height: 80px;
+    background: #E0042D;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: white 3s ease infinite;
+    transition: all .2s ease;
+}
+
+@keyframes white {
+    0% {
+        opacity: 0;
+        width: 80px;
+        height: 80px;
+    }
+    5% {
+        opacity: 1;
+    }
+    50% {
+        box-shadow: 0 0 80px 0px #CA0A2E;
+        width: 100px;
+        height: 100px;
+    }
+    100% {
+        box-shadow: 0 0 0px 0px #CA0A2E;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.modal-dialog {
+    max-width: 800px!important;
+}

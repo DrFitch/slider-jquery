@@ -1,0 +1,135 @@
+{
+    "slideshow": {
+        "name": "Mon slide show",
+        "delayBetweenSlides": "1000",
+        "animation": "fadeIn",
+        "slides": [
+            {
+                "image": {
+                    "URL": "img/yakuzas/diap1.jpg",
+                    "animation": {
+                        "type": "zoom",
+                        "to": "1.2"
+                    }
+                },
+                "text": {
+                    "content": "Yakukza #1",
+                    "animation": {
+                        "type": "move",
+                        "from": "100,200",
+                        "to": "150,200"
+                    },
+                    "css": {
+                        "fontSize": "12px",
+                        "color": "#9b923e"
+                    }
+                }
+            },
+            {
+                "image": {
+                    "URL": "img/yakuzas/diap2.jpg",
+                    "animation": {
+                        "type": "zoom",
+                        "to": "0.9"
+                    }
+                },
+                "text": {
+                    "content": "Yakukza #2",
+                    "animation": {
+                        "type": "move",
+                        "from": "180,200",
+                        "to": "100,200"
+                    },
+                    "css": {
+                        "fontSize": "10px",
+                        "color": "#0afec0"
+                    }
+                }
+            },
+            {
+                "image": {
+                    "URL": "img/yakuzas/diap3.jpg",
+                    "animation": {
+                        "type": "zoom",
+                        "to": "1.2"
+                    }
+                },
+                "text": {
+                    "content": "Yakukza #3",
+                    "animation": {
+                        "type": "move",
+                        "from": "100,200",
+                        "to": "150,200"
+                    },
+                    "css": {
+                        "fontSize": "12px",
+                        "color": "#9b923e"
+                    }
+                }
+            },
+            {
+                "image": {
+                    "URL": "img/yakuzas/diap4.jpg",
+                    "animation": {
+                        "type": "zoom",
+                        "to": "1.2"
+                    }
+                },
+                "text": {
+                    "content": "Yakukza #4",
+                    "animation": {
+                        "type": "move",
+                        "from": "100,200",
+                        "to": "150,200"
+                    },
+                    "css": {
+                        "fontSize": "12px",
+                        "color": "#9b923e"
+                    }
+                }
+            },
+            {
+                "image": {
+                    "URL": "img/yakuzas/diap5.jpg",
+                    "animation": {
+                        "type": "zoom",
+                        "to": "1.2"
+                    }
+                },
+                "text": {
+                    "content": "Yakukza #5",
+                    "animation": {
+                        "type": "move",
+                        "from": "100,200",
+                        "to": "150,200"
+                    },
+                    "css": {
+                        "fontSize": "12px",
+                        "color": "#9b923e"
+                    }
+                }
+            },
+            {
+                "image": {
+                    "URL": "img/yakuzas/diap6.jpg",
+                    "animation": {
+                        "type": "zoom",
+                        "to": "1.2"
+                    }
+                },
+                "text": {
+                    "content": "lost",
+                    "animation": {
+                        "type": "move",
+                        "from": "100,200",
+                        "to": "150,200"
+                    },
+                    "css": {
+                        "fontSize": "12px",
+                        "color": "#9b923e"
+                    }
+                }
+            }
+        ]
+    }
+}
